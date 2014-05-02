@@ -1,0 +1,24 @@
+GIT
+  remote: git@github.com:gal-at-aljazeera/vcr.git
+  revision: 200ad3e70e756853becc71034c3edbe816f249cc
+  branch: issue_408
+  specs:
+    vcr (2.9.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    safe_yaml (1.0.3)
+    webmock (1.17.4)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  vcr!
+  webmock
